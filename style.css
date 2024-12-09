@@ -1,0 +1,19 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+body{
+  display: grid;
+  place-content: center;  
+}
+textarea{
+  resize: none;
+  width: fit-content;
+  height: fit-content;
+}
+button{
+  width: fit-content;
+  height: fit-content;
+}
+
