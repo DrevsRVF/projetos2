@@ -4,16 +4,51 @@ html{
   font-weight: 500;
 }
 body{
-  display: grid;
+  background-color: rgb(233, 233, 233);
   place-content: center;  
 }
 textarea{
   resize: none;
   width: fit-content;
   height: fit-content;
+  font-size: 17px;
+  
 }
 button{
   width: fit-content;
   height: fit-content;
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2,min-content);
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+label{
+  display: inline-block;
+  padding: 5px;
+}
+
+
+li{
+  font-size: 17px;
+}
+
+ul li{
+  display: flex;
+  justify-content: space-between;
+}
+.inserir{
+  align-content: end;
+  grid-column: 2;
+  
+}
+#button{
+  font-size: 17px;
+  padding: 11.5px 5px;
+  
+}
+
 
