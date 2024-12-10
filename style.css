@@ -39,6 +39,7 @@ li{
 ul li{
   display: flex;
   justify-content: space-between;
+  margin: 10px;
 }
 .inserir{
   align-content: end;
@@ -48,7 +49,16 @@ ul li{
 #button{
   font-size: 17px;
   padding: 11.5px 5px;
-  
+  background-color: cornflowerblue;
 }
 
+button {
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
+  border-radius: 10%;
+}
 
+button:hover {
+  background-color: rgb(199, 77, 77);
+  border-color: cornflowerblue;
+}
