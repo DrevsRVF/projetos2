@@ -25,6 +25,7 @@ $(document).ready(function () {
         //getStorage();
         $('.list').append(`
             <li>
+                <span class="icone">${key}</span>
                 ${localStorage.getItem(key)}
                 <button class='remover' value='${key}'>Deletar</button>
             </li>  
@@ -52,6 +53,7 @@ function getStorage(){
             
             $('.list').append(`
             <li>
+                <span class="icone">${chave}</span>
                 ${localStorage.getItem(chave)}
                 <button class='remover' value='${chave}'>Deletar</button>
             </li>  
