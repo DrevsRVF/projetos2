@@ -39,7 +39,7 @@ ul li{
   display: flex;
   justify-content: space-between;
   margin: 10px;
-     
+  
 }
 
 .lista{
@@ -60,6 +60,9 @@ ul li{
 #button:hover{
   background-color: rgb(85, 235, 130)
 }
+#button:active{
+  background-color: rgb(241, 228, 228)
+}
 
 button {
   background-color: cornflowerblue;
@@ -73,6 +76,7 @@ button:hover {
   border-color: cornflowerblue;
 }
 
-.icone{
-  background-color: brown;
+button:active{
+  background-color: rgb(241, 228, 228)
 }
+
