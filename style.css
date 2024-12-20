@@ -25,6 +25,7 @@ button{
   justify-content: center;
   align-content: center;
   gap: 10px;
+  
 }
 label{
   display: inline-block;
@@ -33,18 +34,28 @@ label{
 
 li{
   font-size: 17px;
-}
-
-ul li{
-  display: flex;
-  justify-content: space-between;
   margin: 10px;
-  
+  display: grid;
+  grid-template-columns: 5% 5% 93% 10%; 
 }
 
-.lista{
-  grid-column: span 3;
+
+
+
+
+li:before{
+  display: flex;
+  content: "";
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 0.35rem;
+  align-self: center;
 }
+
+
+
 
 .inserir{
   align-content: end;
@@ -79,4 +90,8 @@ button:hover {
 button:active{
   background-color: rgb(241, 228, 228)
 }
+
+
+
+
 
